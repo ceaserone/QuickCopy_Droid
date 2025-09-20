@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@drawable/qc_row_button"
+    android:padding="10dp"
+    android:layout_marginBottom="8dp"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvHint"
+        android:text="Item"
+        android:textColor="@color/qc_text_dark"
+        android:textSize="15sp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvMask"
+        android:text="••••"
+        android:textColor="@color/qc_text_muted"
+        android:textSize="14sp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageButton
+        android:id="@+id/btnCopy"
+        android:src="@drawable/ic_copy_24"
+        android:background="@drawable/qc_icon_btn_bg"
+        android:contentDescription="@string/copied"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quick Copy!</string>
+    <string name="pick_icon">😜 Emojis</string>aK
+    <string name="give_name">Name your shortcut (optional)</string>
+    <string name="create_shortcut">✔️ Slap IT On!</string>
+    <string name="hints_values">Add your data...</string>
+    <string name="close">Close</string>
+    <string name="copied">Done..</string>
+    <string name="popup_default_title">FOCK Soci//ety</string>
+    <string name="picker_title">Choose an emoji or use text</string>
+    <string name="shortcut_not_supported">Not supported on your Droid OS</string>
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <color name="qc_bg_black">#000000</color>
+    <color name="qc_bg_grey">#444444</color>
+    <color name="qc_text_dark">#FFFFFF</color>
+    <color name="qc_text_muted">#CCCCCC</color>
+    <color name="qc_accent">#4FC3F7</color>
+    <color name="qc_accent_soft">#334FC3F7</color>
+    <color name="qc_press">#222A33</color>
+    <color name="qc_button_bg">#2A2A2A</color>
+    <color name="qc_button_bg_pressed">#3A3A3A</color>
+    <color name="qc_bg">@color/qc_bg_black</color>
+    <color name="qc_bg_light">@color/qc_bg_black</color>
+    <color name="qc_bg_light_2">@color/qc_bg_grey</color>
+    <color name="qc_card">#1E1E1E</color>
+    <color name="qc_text">@color/qc_text_dark</color>
+    <color name="qc_hint">@color/qc_text_muted</color>
+</resources>

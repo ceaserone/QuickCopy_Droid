@@ -1,0 +1,37 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.quickcopy.fucksociety'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.quickcopy.fucksociety"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+        resourceConfigurations += ['en']
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility 17
+        targetCompatibility 17
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.11.0'
+}

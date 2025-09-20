@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/qc_bg_radial">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="18sp"
+            android:textColor="@color/qc_text_dark"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnPickIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pick_icon"
+            android:background="@drawable/qc_row_button" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/give_name"
+            android:textSize="16sp"
+            android:textColor="@color/qc_text_dark"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="6dp" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name your shortcut...."
+            android:textColor="@color/qc_text_dark"
+            android:textColorHint="@color/qc_text_muted"
+            android:background="@drawable/qc_row_button"
+            android:padding="10dp"
+            android:inputType="textCapWords" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tags-Reminder &amp; Boards-Clipboard data"
+            android:textSize="16sp"
+            android:textColor="@color/qc_text_dark"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="6dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+            <EditText
+                android:id="@+id/etHint1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="TagIT 1"
+                android:textColor="@color/qc_text_dark"
+                android:textColorHint="@color/qc_text_muted"
+                android:background="@drawable/qc_row_button"
+                android:padding="10dp"/>
+            <View android:layout_width="8dp" android:layout_height="match_parent"/>
+            <EditText
+                android:id="@+id/etValue1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Save 2 Board 1"
+                android:inputType="textVisiblePassword"
+                android:textColor="@color/qc_text_dark"
+                android:textColorHint="@color/qc_text_muted"
+                android:background="@drawable/qc_row_button"
+                android:padding="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+            <EditText
+                android:id="@+id/etHint2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="TagIT 2"
+                android:textColor="@color/qc_text_dark"
+                android:textColorHint="@color/qc_text_muted"
+                android:background="@drawable/qc_row_button"
+                android:padding="10dp"/>
+            <View android:layout_width="8dp" android:layout_height="match_parent"/>
+            <EditText
+                android:id="@+id/etValue2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Save 2 Board 2"
+                android:inputType="textVisiblePassword"
+                android:textColor="@color/qc_text_dark"
+                android:textColorHint="@color/qc_text_muted"
+                android:background="@drawable/qc_row_button"
+                android:padding="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+            <EditText
+                android:id="@+id/etHint3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="TagIT 3"
+                android:textColor="@color/qc_text_dark"
+                android:textColorHint="@color/qc_text_muted"
+                android:background="@drawable/qc_row_button"
+                android:padding="10dp"/>
+            <View android:layout_width="8dp" android:layout_height="match_parent"/>
+            <EditText
+                android:id="@+id/etValue3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Save 2 Board 3"
+                android:inputType="textVisiblePassword"
+                android:textColor="@color/qc_text_dark"
+                android:textColorHint="@color/qc_text_muted"
+                android:background="@drawable/qc_row_button"
+                android:padding="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+            <EditText
+                android:id="@+id/etHint4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="TagIT 4"
+                android:textColor="@color/qc_text_dark"
+                android:textColorHint="@color/qc_text_muted"
+                android:background="@drawable/qc_row_button"
+                android:padding="10dp"/>
+            <View android:layout_width="8dp" android:layout_height="match_parent"/>
+            <EditText
+                android:id="@+id/etValue4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Save 2 Board 4"
+                android:inputType="textVisiblePassword"
+                android:textColor="@color/qc_text_dark"
+                android:textColorHint="@color/qc_text_muted"
+                android:background="@drawable/qc_row_button"
+                android:padding="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+            <EditText
+                android:id="@+id/etHint5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="TagIT 5"
+                android:textColor="@color/qc_text_dark"
+                android:textColorHint="@color/qc_text_muted"
+                android:background="@drawable/qc_row_button"
+                android:padding="10dp"/>
+            <View android:layout_width="8dp" android:layout_height="match_parent"/>
+            <EditText
+                android:id="@+id/etValue5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Save 2 Board 5"
+                android:inputType="textVisiblePassword"
+                android:textColor="@color/qc_text_dark"
+                android:textColorHint="@color/qc_text_muted"
+                android:background="@drawable/qc_row_button"
+                android:padding="10dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/create_shortcut"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/qc_row_button" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/qc_footer_bg"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:padding="7dp">
+
+            <TextView
+                android:id="@+id/tvFooter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/qc_text_muted"
+                android:textSize="13sp"
+                android:linksClickable="true"
+                android:autoLink="none" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

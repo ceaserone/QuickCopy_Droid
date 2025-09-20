@@ -1,0 +1,19 @@
+# Gradle junk
+.gradle/
+build/
+*/build/
+
+# IDE junk
+.idea/
+*.iml
+
+# Local configs
+local.properties
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# APKs (except release one you want)
+*.apk
+!QuickCopy.apk
