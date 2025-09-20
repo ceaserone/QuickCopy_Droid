@@ -3,7 +3,7 @@
 QuickCopy is a lightweight Android app that lets you **create custom shortcuts** on your home screen for quickly copying data to your clipboard.  
 Designed for speed, customization, and style, built entirely on AndroidIDE.
 
-# [CLICK HERE!](#download)!! ToGo straight to the compiled .APK and Download Link! 😜🏴‍☠️😜🏴‍☠️😜💯
+## [CLICK HERE!](#download)!! ToGo straight to the compiled .APK and Download Link! 😜🏴‍☠️😜🏴‍☠️😜💯
 
 ---
 
