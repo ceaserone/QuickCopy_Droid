@@ -1,4 +1,4 @@
-# QuickCopy Droid 📝⚡
+# QuickCopy Droid
 
 QuickCopy is a lightweight Android app that lets you **create custom shortcuts** on your home screen for quickly copying data to your clipboard.  
 Designed for speed, customization, and style, built entirely on AndroidIDE.
